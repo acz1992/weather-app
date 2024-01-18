@@ -65,13 +65,18 @@
 }
 
 .parameter-label.top {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #f9f6ee;
 	font-weight: 600;
 	margin-bottom: 5px;
 }
 
 /* Icon SVG color */
-img[src="icons/01d.svg"] {
+/* img[src="icons/01d.svg"],
+img[src="icons/01n.svg"] {
 	filter: brightness(0) saturate(100%) invert(69%) sepia(93%) saturate(3270%)
 		hue-rotate(5deg) brightness(108%) contrast(105%);
+} */
+.weather-icon {
+	filter: invert(92%) sepia(1%) saturate(1493%) hue-rotate(10deg)
+		brightness(107%) contrast(96%);
 }
