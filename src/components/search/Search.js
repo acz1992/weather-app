@@ -5,16 +5,6 @@ import { geoApiOptions, GEO_API_URL } from "../../api";
 export const Search = ({ onSearchChange }) => {
 	const [search, setSearch] = useState(null);
 
-	/* const loadOptions = async (inputValue) => {
-		try {
-			const response = await fetch(GEO_API_URL, geoApiOptions);
-			const result = await response.text();
-			console.log(result);
-		} catch (error) {
-			console.error(error);
-		}
-	}; */
-
 	const loadOptions = async (searchInputValue) => {
 		try {
 			const response = await fetch(
